@@ -36,7 +36,6 @@ div {
 }
 .top-navigation .links {
 	float: right;
-	font-family: "Roboto", sans-serif;
 	color: #838994;
 	letter-spacing: 0.03em;
 	font-size: 1.04rem;
@@ -73,4 +72,48 @@ div {
     .content {
         width: 60%;
     }
+}
+
+/*Introduction Section*/
+.introduction {
+	background-image: url('../images/first-background.jpg');
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 45.938rem;
+	overflow: auto;
+}
+.introduction h1,
+.introduction h3 {
+	color: white;
+	text-align: center;
+	font-weight: 300;
+}
+.introduction h1 {
+	margin-top: 17.5rem;
+	font-size: 3.125rem;
+}
+.introduction h3 {
+	margin-top: 1.25rem;
+	font-size: 1.563rem;
+}
+
+/*Button*/
+button {
+	display: block;
+	margin: 0 auto;
+	width: 9.688rem;
+	background-color: #f15a29;
+	border-color: #f15a29;
+	text-shadow: none;
+	border-style: none;
+	border-radius: 4px;
+	padding: 1rem 1.5rem;
+	color: white;
+	font-size: 1.125rem;
+}
+button:hover {
+	background-color: #d9400e;
+	border-color: #cf3d0e;
+	curser: pointer;
 }
