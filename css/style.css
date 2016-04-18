@@ -1,19 +1,13 @@
 html {
   box-sizing: border-box;
 }
-*, *:before, *:after {
-  box-sizing: inherit;
-}
 
 body {
-	background-color: LightGray;
+	background-color: white;
 	font-family: 'Roboto', sans-serif;
 	-webkit-font-smoothing: antialiased;
 }
 
-div {
-	/*border: 1px solid Chocolate;*/
-}
 .content {
 	padding: 0 0.938em;
 	margin: 0 auto;
@@ -26,10 +20,13 @@ div {
 	position: fixed;
 	width: 100%;
 	border-bottom: 1px solid #DDD;
-	z-index: 1;
+	z-index: 9999;
 }
 .top-navigation > .content {
 	height: 4.375rem;
+	padding: 0 0.938em;
+	margin: 0 auto;
+	min-width: 37.5rem;
 }
 .top-navigation .logo {
 	height: 4.375rem;
@@ -115,5 +112,99 @@ button {
 button:hover {
 	background-color: #d9400e;
 	border-color: #cf3d0e;
-	curser: pointer;
+	cursor: pointer;
+}
+
+/*Icons Section*/
+.cases {
+	text-align: center;
+	padding-top: 5.5em;
+}
+.cases h2 {
+	font-weight: 300;
+	font-size: 2.75rem;
+}
+.cases h3 {
+	font-weight: 400;
+	font-size: 1.5rem;
+	margin: 2.5rem 0px 1.875rem;
+}
+ul {
+	list-style: none;
+}
+.cases .devices > li {
+	width: 33.3333333%;
+	float: left;
+}
+
+/*Footer Section*/
+hr {
+	border-color: #eaebec;
+	text-align: center;
+	width: 1100px;
+	margin-top: 370px;
+}
+.icons {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	box-sizing: border-box;
+}
+.social {
+	text-align: center;
+	padding-bottom: 9.375rem;
+	display: block;
+}
+.social .icons > li {
+	border-radius: 50%;
+	width: 2.5rem;
+	height: 2.5rem;
+	display: inline-block;
+	margin: 1.25rem 5px;
+	border: 1px solid #eaebec;
+	padding: 0.625rem 0;
+	text-align: center;
+	font-size: inherit;
+	box-sizing: border-box;
+	vertical-align: baseline;
+}
+.fa {
+	display:inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+}
+.social .twitter {
+	color: #55acee;
+}
+.twitter a:visited {
+	color: #55acee;
+}
+.social .facebook {
+	color: #4c66a4;
+}
+.facebook a:visited {
+	color: #4c66a4;
+}
+.social .instagram {
+	color: #3f729b;
+}
+.instagram a:visited {
+	color: #3f729b;
+}
+h5 {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 0;
+    
+}
+.social .copy {
+	font-size: 0.9rem;
+	font-weight: 300;
+	color: #838994;
 }
